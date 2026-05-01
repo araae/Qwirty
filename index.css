@@ -1,0 +1,99 @@
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 1.5rem 2rem;
+  background-color: white;
+}
+
+header form {
+  display: flex;
+  flex: 1;
+  max-width: 800px;
+}
+
+header input {
+  flex: 1;
+  padding: 0.75rem 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px 0 0 4px;
+}
+
+header form button {
+  padding: 0.75rem 1.5rem;
+  background-color: #5870a3;
+  color: white;
+  border: none;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: #c2c4d4;
+  color: rgb(0, 0, 0);
+}
+
+.page.container {
+  display: flex;
+}
+
+.logo {
+  font-size: 4rem;
+  font-weight: bold;
+  color: #9f66c7;
+  text-decoration: none;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2f70a8;
+  color: white;
+  padding: 0.75rem 2rem;
+}
+
+.topbar-left,
+.topbar-right {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.topbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.financing {
+  background-color: #dd2d56;
+  color: white;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 4px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.page.container {
+  display: flex;
+  gap: 1.5rem;
+  padding: 1.5rem;
+}
+
+.categories {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.categories a {
+  background-color: #1e0c45;
+  color: white;
+  text-decoration: none;
+  padding: 0.9rem 2rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
